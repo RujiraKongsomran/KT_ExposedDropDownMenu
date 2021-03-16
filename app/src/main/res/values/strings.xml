@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KT_ExposedDropDownMenu</string>
+    <string-array name="language">
+        <item>English</item>
+        <item>German</item>
+        <item>Chinese</item>
+    </string-array>
 </resources>
