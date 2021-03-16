@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+    }
+
+    override fun onResume() {
+        super.onResume()
         val language = resources.getStringArray(R.array.language)
         val arrayAdapter = ArrayAdapter(applicationContext, R.layout.dropdown_item, language)
         binding.autoCompleteTextView.setAdapter(arrayAdapter)
